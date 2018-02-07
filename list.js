@@ -1,98 +1,17 @@
 var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}		var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}		var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}		var a= 1;
-	
-	while( a<10) {
-		
-		
-		alert(a);
-		a++;
-		
-	}
 
+do{
+		
+	alert(a);
+	a++;
+	
+} while ( a<3);
+
+
+var myBreakfast= new Array();
+myBreakfast[0] = "Try Tofu";
+myBreakfast[1] = "Red Peppers";
+myBreakfast[2] = "Tortillas";
+myBreakfast[3] = "Onion.";
+
+document.write(myBreakfast[2]);
