@@ -8,6 +8,38 @@
 				 
 <title>Cool Code</title>
 	
+<link href="layout.css" rel="stylesheet" type="text/css">
+	
+		<script type="text/javascript" src="list.js">
+			
+			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}
+			
+	
+	</script>
+	
+	<form name="cf">
+
+Enter your email: <input TYPE="text" name="cfd" size="20">
+<input TYPE="button" Value="Set to Cookie"
+onClick="putCookie()">
+
+</form>
+	
+	
 </head>
 
 <body>
@@ -29,6 +61,7 @@
 		
 		
 		<header>
+			W E L C O M E
 			
 			
 		</header>
@@ -37,7 +70,11 @@
 		
 		
 		<section>
-			<p id="comments">Hello World!</p>
+			<p id="comments">Hello! My name's Noemi and here's my Demo Page. Enjoy!</p>
+			
+			<button type="button" onclick="this.innerHTML='GOTCHA!'">Click Me!</button>
+		
+			
 			
 		</section>	
 		
@@ -45,11 +82,7 @@
 			Copyright goes here.
 			
 		</footer>
-	
 
-	<script type="text/javascript" src="list.js">
-	
-	</script>
 	</div>
 	
 </body>	
