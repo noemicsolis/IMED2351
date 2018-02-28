@@ -1,4 +1,275 @@
+			
+			 cookie_name = "dataCookie";
+var YouEntered;
 
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			
+			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			
+			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			
+			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			
+			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}			 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}						 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}						 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}						 cookie_name = "dataCookie";
+var YouEntered;
+
+function putCookie() {
+
+if(document.cookie != document.cookie)
+{index = document.cookie.indexOf(cookie_name);}
+else
+{ index = -1;}
+
+if (index == -1)
+{
+YouEntered=document.cf.cfd.value;
+document.cookie=cookie_name+"="+YouEntered+"; expires=Monday, 04-Apr-2010 05:00:00 GMT";
+}
 
 //Hide script from old browsers
 	// This script copyright 1997, Tom Negrino and Dori Smith.
