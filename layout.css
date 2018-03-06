@@ -65,6 +65,10 @@ section {
 	
 }
 
+.hide{
+	display: none;
+}
+
 button {
     background-color: #FF6C00; /* Green */
     border: none;
