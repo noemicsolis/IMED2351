@@ -9,9 +9,8 @@
 <title>Noemi's Page</title>
 	
 <link href="layout.css" rel="stylesheet" type="text/css">
-
-	
-	
+<style type="text/css">
+</style>
 </head>
 
 <body>
@@ -21,10 +20,9 @@
 		
 		<aside>
 			<ul id="demoparent" class="nav">
-				<li id="demochild"><a href="#">Link one</a></li>
-				<li><a href="#">Link two</a></li>
-				<li><a href="#">Link three</a></li>
-				<li><a href="#">Link four</a></li>
+				<li id="demochild"><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Porfolio</a></li>
 			</ul>
 			
 			
@@ -44,16 +42,22 @@
 		<section>
 			<p id="comments">Hello! My name's Noemi and here's my Demo Page. Enjoy!</p>
 			
-			<input id="eventClick" type="button" value="Click Me!">
-		
-				<form name="cf">
-
-Enter your email: <input TYPE="text" name="cfd" size="20">
-<input TYPE="button" Value="Remember Me"
-onClick="putCookie()">
-
-</form>
+		<main>	
 			
+			<h4> Stuff about me </h4>
+			<ul>
+			<li><a data-img="noemi-pic" id="noemi" href="#">Noemi Solis</a></li>
+			<li><a data-img="kakashi-pic" id="kakashi" href="#">Kakashi Hatake</a></li>
+			<li><a data-img="photography-pic" id="photography" href="#">Guatemala</a></li>
+			</ul>
+			
+			
+			<img class="hide" id="noemi-pic" src="../rubric5/Noemi.JPG" alt="">
+			<img class="hide" id="kakashi-pic" src="../rubric5/illustrations.jpg" alt="">
+			<img class="hide" id="photography-pic" src="../rubric5/photography.jpg" alt="">
+			
+
+			</main>
 		</section>	
 		
 		<footer>
@@ -63,8 +67,8 @@ onClick="putCookie()">
 
 	</div>
 	
-</body>	
-	<script type="text/javascript" src="list.js"></script>
+</body>	 
+	<script language="javascript" src="../rubric5/event.js"></script>
 	
 </html>
 
