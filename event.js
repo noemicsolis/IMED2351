@@ -9,7 +9,6 @@ photography.addEventListener("click", picLink);
 
 function picLink() {
 	var allImages = document.querySelectorAll("img");
-	
 	for (var i = 0; i <
 allImages.length; i++) {
 		allImages[i].className = "hide";
@@ -23,6 +22,5 @@ allImages.length; i++) {
 		pic.className = "hide";
 	}
 }
-
 
 

@@ -9,8 +9,6 @@
 <title>Noemi's Page</title>
 	
 <link href="layout.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-</style>
 </head>
 
 <body>
@@ -42,6 +40,10 @@
 		<section>
 			<p id="comments">Hello! My name's Noemi and here's my Demo Page. Enjoy!</p>
 			
+			<center><p>Here you will find an image of me...</br>
+				An Illustration I did for one of my courses</br>
+	and also a photo from my trip to Guatemala.</p></center>
+			
 		<main>	
 			
 			<h4> Stuff about me </h4>
@@ -58,6 +60,8 @@
 			
 
 			</main>
+	
+
 		</section>	
 		
 		<footer>
@@ -68,7 +72,36 @@
 	</div>
 	
 </body>	 
-	<script language="javascript" src="../rubric5/event.js"></script>
+	<script language="javascript" src="../IMED2351/event.js"></script>
+			<script type="text/javascript" src="../IMED2351/jquery/jquery-3.0.0.js"></script>
+		
+	<script type="text/javascript">
+		$("document").ready(function() {
+			
+			$("p:first").css("border", "3px solid #878998");
+		});
+		
+		 $("#noemi-pic").hover(function(){
+    alert("Get that cursor out of my face!");
+},
+function(){
+    alert("Thank you!");
+});
+						 $("#kakashi-pic").hover(function(){
+    alert("I drew Kakashi from Naruto for my Drawing 2 course at NVC.");
+},
+function(){
+    alert("He's my fave <3");
+});
+				 $("#photography-pic").hover(function(){
+    alert("I went to Guatemala for Spring Break of 2016.");
+},
+function(){
+    alert("I can't wait to go back!");
+});
+
+
+	</script>
 	
 </html>
 

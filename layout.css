@@ -31,14 +31,15 @@ body
 header
 {
 	align-content: center;
-	border-style: none;
 	height: 120px;
 	background-color: #CC5600;
 	font-size: 80px;
 }
 
 
-
+p {
+	
+}
 
 
 aside {
