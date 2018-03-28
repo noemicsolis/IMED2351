@@ -51,8 +51,8 @@
 			<p id="comments">Hello! My name's Noemi and here's my Demo Page. Enjoy!</p>
 			
 			
-			<div id="map"></div>
-			    <script>
+		  <div id="map"></div>
+	      <script>
       function initMap() {
         var uluru = {lat: 42.038835, lng: -87.670029};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -75,6 +75,9 @@
 			<center><p>Here you will find an image of me...</br>
 				An Illustration I did for one of my courses</br>
 				and also a photo from my trip to Guatemala.</p></center>
+	
+	
+	
 			
 		<main>	
 			
@@ -93,7 +96,12 @@
 
 			</main>
 	
+	<div id="demo">
+<h2>What day does an Easter egg hate the most?</h2>
+<button type="button" onclick="loadDoc()">Click me for the answer!</button>
+</div>
 
+	
 		</section>	
 		
 		<footer>
@@ -103,6 +111,19 @@
 
 	</div>
 
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "switchtext.txt", true);
+  xhttp.send();
+}
+</script>
 
 	
 </body>	 

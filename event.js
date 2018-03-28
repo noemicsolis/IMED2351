@@ -23,4 +23,3 @@ allImages.length; i++) {
 	}
 }
 
-
