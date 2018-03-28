@@ -9,9 +9,19 @@
 <title>Noemi's Page</title>
 	
 <link href="layout.css" rel="stylesheet" type="text/css">
-</head>
+	<style>
+       #map {
+        height: 250px;
+        width: 80%;
+       }
+    </style>
 
+</head>
+	
+	
 <body>
+	
+	
 	
 <div class="container">
 			
@@ -40,9 +50,31 @@
 		<section>
 			<p id="comments">Hello! My name's Noemi and here's my Demo Page. Enjoy!</p>
 			
+			
+			<div id="map"></div>
+			    <script>
+      function initMap() {
+        var uluru = {lat: 42.038835, lng: -87.670029};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_ylB0KdA0-Z3VcIXJM3P-EKUjea6Eng4&callback=initMap">
+    </script>
+
+
+			
+			
 			<center><p>Here you will find an image of me...</br>
 				An Illustration I did for one of my courses</br>
-	and also a photo from my trip to Guatemala.</p></center>
+				and also a photo from my trip to Guatemala.</p></center>
 			
 		<main>	
 			
@@ -70,8 +102,27 @@
 		</footer>
 
 	</div>
+
+
 	
 </body>	 
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+
+
+
 	<script language="javascript" src="../IMED2351/event.js"></script>
 			<script type="text/javascript" src="../IMED2351/jquery/jquery-3.0.0.js"></script>
 		
