@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+<link href="layout.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+	<div class="container">
+			
+		
+		<aside>
+			<ul id="demoparent" class="nav">
+				<li id="demochild"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="portfolio.html">Porfolio</a></li>
+			</ul>
+			
+			
+		</aside>
+		
+		
+		
+		<header>
+		
+			moving flower.
+			
+			
+		</header>
+		
+		
+		
+		
+		<section>
+		<center>	<p id="comments">Hello! <br></p>
+		</center>
+			
+			
+			
+						<center><p>Here you will find an image of me...</br>
+				An Illustration I did for one of my courses</br>
+				and also a photo from my trip to Guatemala.</p></center>
+	
+	
+	
+			
+		<main>	
+			
+			<center><h4> Who I am • What I do • Where I'm from </h4></center>
+			<ul>
+			<li><a data-img="noemi-pic" id="noemi" href="#">Noemi Solis</a></li>
+			<li><a data-img="kakashi-pic" id="kakashi" href="#">Kakashi Hatake</a></li>
+			<li><a data-img="photography-pic" id="photography" href="#">Guatemala</a></li>
+			</ul>
+			
+			
+			<img class="hide" id="noemi-pic" src="../rubric5/Noemi.JPG" alt="">
+			<img class="hide" id="kakashi-pic" src="../rubric5/illustrations.jpg" alt="">
+			<img class="hide" id="photography-pic" src="../rubric5/photography.jpg" alt="">
+			
+
+		  </main>
+		</section>
+	
+	
+	
+	
+	<footer>
+			Copyright goes here.
+			
+		</footer>
+</body>
+<script language="javascript" src="../IMED2351/event.js"></script>
+			<script type="text/javascript" src="../IMED2351/jquery/jquery-3.0.0.js"></script>
+		
+	<script type="text/javascript">
+		$("document").ready(function() {
+			
+			$("p:first").css("border", "3px solid #878998");
+		});
+		
+		 $("#noemi-pic").hover(function(){
+    alert("Get that cursor out of my face!");
+},
+function(){
+    alert("Thank you!");
+});
+						 $("#kakashi-pic").hover(function(){
+    alert("I drew Kakashi from Naruto for my Drawing 2 course at NVC.");
+},
+function(){
+    alert("He's my fave <3");
+});
+				 $("#photography-pic").hover(function(){
+    alert("I went to Guatemala for Spring Break of 2016.");
+},
+function(){
+    alert("I can't wait to go back!");
+});
+
+
+	</script>
+
+</html>

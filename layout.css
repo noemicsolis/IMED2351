@@ -1,16 +1,29 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@font-face {
+    font-family: DK Dirrrty;
+    src: url(../fonts/DK Dirrrty.ttf);
+} 
+
+@font-face {
+	font-family: Gotham-Bold;
+	src: url(../fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+	font-family: Gotham-Book;
+	src: url(../fonts/Gotham-Book.otf);
+}
+
 .container
 
-
-
 {
-
+	background-color: #ffffff;
 	margin: 0 auto;
 	width: 960px;
 	border-style:ridge;
-	border-color: #7F3B08;
+	border-color: #000000;
 	
 }
 
@@ -18,8 +31,10 @@
 
 body 
 { 
-	
-	background-size: 960px 900px;
+	background-image: url("../rubric5/../rubric5/DSC_6113.jpg");
+	background-repeat: repeat;
+    background-attachment: fixed;
+	background-size: cover;
 	margin: 0 auto;
 	background-color: #FF984C;
 
@@ -30,12 +45,20 @@ body
 
 header
 {
+	font-family: DK Dirrrty;
 	align-content: center;
 	height: 120px;
-	background-color: #CC5600;
 	font-size: 80px;
+	color: #82CFF8;
+	padding-top: 30px;
 }
 
+
+       #map {
+        height: 250px;
+        width: 80%;
+		padding-bottom: 80px;
+       }
 
 p {
 	
@@ -43,10 +66,13 @@ p {
 
 
 aside {
+	
+	border-top: dashed#82CFF8;
+	font-family: Gotham-Bold;
 	width: 200px;
-	height: 100px;
+	height: 500px;;
 	float: left;
-	margin-top: 110px;
+	margin-top: 170px;
 	font-size: 25px
 	
 
@@ -55,11 +81,14 @@ aside {
 }
 
 section {
+	 
+	font-family: Gotham-Book;
 	width: 700px;
 	min-height: 500px;
 	float: right;
-	border: dashed#7F3600;
+	border: dashed#82CFF8;
 	padding-left: 20px;
+	padding-right: 20px;
 	margin-top: 20px;
 	
 	
@@ -86,7 +115,7 @@ th, td {
 
 
 footer {
-	
+	font-family: Gotham-Book;
 	text-align: center;
 	clear: both;
 	height: 100px;

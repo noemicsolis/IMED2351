@@ -6,15 +6,10 @@
 		
 	
 				 
-<title>Noemi's Page</title>
+<title>Home Page</title>
 	
 <link href="layout.css" rel="stylesheet" type="text/css">
-	<style>
-       #map {
-        height: 250px;
-        width: 80%;
-       }
-    </style>
+
 
 </head>
 	
@@ -28,9 +23,9 @@
 		
 		<aside>
 			<ul id="demoparent" class="nav">
-				<li id="demochild"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Porfolio</a></li>
+				<li id="demochild"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="portfolio.html">Porfolio</a></li>
 			</ul>
 			
 			
@@ -39,7 +34,8 @@
 		
 		
 		<header>
-			W E L C O M E
+		
+			moving flower.
 			
 			
 		</header>
@@ -48,13 +44,16 @@
 		
 		
 		<section>
-			<p id="comments">Hello! My name's Noemi and here's my Demo Page. Enjoy!</p>
-			
+		<center>	<p id="comments">Hello! <br>
+				My name's Noemi and here's my Final Page.<br>
+		The Map I have listed on my home page is showing you guys where I'll be in July of this year! I'm taking a trip out 
+			to Croatia this year and I couldn't be more excited to explore this side of Europe! </p>	
 			
 		  <div id="map"></div>
+
 	      <script>
       function initMap() {
-        var uluru = {lat: 42.038835, lng: -87.670029};
+        var uluru = {lat: 45.805891, lng: 15.950589};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: uluru
@@ -65,39 +64,15 @@
         });
       }
     </script>
+			
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_ylB0KdA0-Z3VcIXJM3P-EKUjea6Eng4&callback=initMap">
     </script>
-
-
+			</center>
 			
-			
-			<center><p>Here you will find an image of me...</br>
-				An Illustration I did for one of my courses</br>
-				and also a photo from my trip to Guatemala.</p></center>
-	
-	
-	
-			
-		<main>	
-			
-			<h4> Stuff about me </h4>
-			<ul>
-			<li><a data-img="noemi-pic" id="noemi" href="#">Noemi Solis</a></li>
-			<li><a data-img="kakashi-pic" id="kakashi" href="#">Kakashi Hatake</a></li>
-			<li><a data-img="photography-pic" id="photography" href="#">Guatemala</a></li>
-			</ul>
-			
-			
-			<img class="hide" id="noemi-pic" src="../rubric5/Noemi.JPG" alt="">
-			<img class="hide" id="kakashi-pic" src="../rubric5/illustrations.jpg" alt="">
-			<img class="hide" id="photography-pic" src="../rubric5/photography.jpg" alt="">
-			
-
-			</main>
 	
 	<div id="demo">
-<h2>What day does an Easter egg hate the most?</h2>
+<h2>What I'll be telling myself in Croatia this year.</h2>
 <button type="button" onclick="loadDoc()">Click me for the answer!</button>
 </div>
 
@@ -105,7 +80,7 @@
 		</section>	
 		
 		<footer>
-			Copyright goes here.
+			Noemi C. Solis 2018
 			
 		</footer>
 
@@ -131,14 +106,14 @@ function loadDoc() {
 <script>
 function myMap() {
 var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
+    center:new google.maps.LatLng(45.805891, 15.950589),
     zoom:5,
 };
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_ylB0KdA0-Z3VcIXJM3P-EKUjea6Eng4&callback=myMap"></script>
 
 
 
